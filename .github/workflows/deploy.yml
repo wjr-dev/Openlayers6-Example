@@ -16,5 +16,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
          # 部署分支
         BRANCH: host-page
-        FOLDER: dist
+        FOLDER: build
         BUILD_SCRIPT: yarn && yarn build
