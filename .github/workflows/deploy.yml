@@ -15,7 +15,7 @@ jobs:
       env:
         ACCESS_TOKEN: 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
          # 部署分支
-        TARGET_BRANCH: home-page
+        TARGET_BRANCH: host-page
         BUILD_SCRIPT: yarn && yarn build
         # 打包输出目录
         BUILD_DIR: public
