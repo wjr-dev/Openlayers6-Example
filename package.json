@@ -2,6 +2,7 @@
   "name": "openlayers",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://[wjr-dev].github.io/Openlayers6-Example",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
