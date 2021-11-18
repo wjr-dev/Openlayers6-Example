@@ -1,0 +1,198 @@
+{
+  "id": "2932920",
+  "name": "Openlayers",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "755545",
+      "name": "箭头",
+      "font_class": "Arrow",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "1080592",
+      "name": "point",
+      "font_class": "Point",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "1727423",
+      "name": "204首页",
+      "font_class": "Home",
+      "unicode": "e8b9",
+      "unicode_decimal": 59577
+    },
+    {
+      "icon_id": "2746212",
+      "name": "Polygon",
+      "font_class": "Polygon",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "3868275",
+      "name": "人机交互",
+      "font_class": "renjijiaohu",
+      "unicode": "eb66",
+      "unicode_decimal": 60262
+    },
+    {
+      "icon_id": "4372990",
+      "name": "雷达",
+      "font_class": "Radar",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "5536246",
+      "name": "交互日志",
+      "font_class": "jiaohurizhi",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "6295816",
+      "name": "轨迹回放",
+      "font_class": "TrackPlayback",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "9035342",
+      "name": "闪烁点image_9",
+      "font_class": "TwinklePoint",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "9203273",
+      "name": "Popover",
+      "font_class": "Popover",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
+      "icon_id": "9443060",
+      "name": "扇形",
+      "font_class": "Sector",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "10564335",
+      "name": "overlay",
+      "font_class": "Overlay",
+      "unicode": "e715",
+      "unicode_decimal": 59157
+    },
+    {
+      "icon_id": "10939449",
+      "name": "定位",
+      "font_class": "SetCenter",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "10997420",
+      "name": "interaction",
+      "font_class": "HoverAndClick",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "11390278",
+      "name": "播放",
+      "font_class": "TriangleCopyx",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "11748306",
+      "name": "雷达",
+      "font_class": "RadarAnimation",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "11942544",
+      "name": "基础地图",
+      "font_class": "BaseMap",
+      "unicode": "e6e8",
+      "unicode_decimal": 59112
+    },
+    {
+      "icon_id": "12323745",
+      "name": "标记",
+      "font_class": "Marker",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "14827011",
+      "name": "更多-面",
+      "font_class": "MultiPolygon",
+      "unicode": "ed0c",
+      "unicode_decimal": 60684
+    },
+    {
+      "icon_id": "18171086",
+      "name": "轨迹",
+      "font_class": "TrackLine",
+      "unicode": "ea05",
+      "unicode_decimal": 59909
+    },
+    {
+      "icon_id": "19100280",
+      "name": "interaction",
+      "font_class": "Interaction",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "19828163",
+      "name": "矢量图层",
+      "font_class": "shiliangtuceng",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "19908871",
+      "name": "vectorLayer",
+      "font_class": "VectorLayer",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "20354423",
+      "name": "animation-play",
+      "font_class": "Animation",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "20656014",
+      "name": "lineString",
+      "font_class": "LineString",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "22928466",
+      "name": "更多",
+      "font_class": "MultiLineString",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "23095357",
+      "name": "multi-point",
+      "font_class": "MultiPoint",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    }
+  ]
+}
