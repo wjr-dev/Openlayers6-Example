@@ -65,9 +65,9 @@
             <a
               class="link"
               target="_black"
-              href="http://iris.hikvision.com.cn/wangwenchao6/openlayers6-example"
+              href="https://github.com/wjr-dev/Openlayers6-Example"
             >
-              GitLib
+              GitHub
             </a>
           </div>
         </a-layout-header>

@@ -4,9 +4,9 @@
     <p>主要技术：Openlayers6 + Vue2 + AntdV</p>
     <p>内容：Openlayers6 部分基础示例</p>
     <p>
-      挑选周界项目中的典型示例做成 Example，方便参考，目前只有部分示例，后期会逐渐增加
+      挑选项目中的典型示例做成 Example，方便参考，目前只有部分示例，后期会逐渐增加
     </p>
-    <p>若有比较通用的示例可以提 Issues 或者在 HikLink 找我 wangwenchao6</p>
+    <p>若有比较通用的示例可以提 Issues</p>
     <br />
     <br />
     <h4>Overlay</h4>
