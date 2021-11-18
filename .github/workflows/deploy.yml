@@ -13,7 +13,7 @@ jobs:
     - name: Build and Deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: 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
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
          # 部署分支
         TARGET_BRANCH: host-page
         BUILD_SCRIPT: yarn && yarn build
