@@ -15,6 +15,5 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
          # 部署分支
-        BRANCH: host-page
-        FOLDER: build
+        TARGET_BRANCH: page
         BUILD_SCRIPT: yarn && yarn build
