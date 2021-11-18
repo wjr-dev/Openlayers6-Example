@@ -11,7 +11,7 @@ jobs:
       uses: actions/checkout@main
 
     - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@master
+      uses: wjr-dev/Openlayers6-Example@main
       env:
         ACCESS_TOKEN: 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
         BRANCH: main
