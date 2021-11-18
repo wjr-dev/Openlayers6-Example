@@ -17,5 +17,5 @@ jobs:
          # 部署分支
         TARGET_BRANCH: page
         BUILD_SCRIPT: yarn && yarn build
-        # 打包输出目录
+        # 打包输出目录1
         BUILD_DIR: dist
