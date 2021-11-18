@@ -2,13 +2,13 @@ name: GitHub Actions Build and Deploy Demo
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@main
 
     - name: Build and Deploy
       uses: jenkey2011/vuepress-deploy@master
