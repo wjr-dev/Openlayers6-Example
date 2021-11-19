@@ -1,0 +1,24 @@
+{
+  // VScode主题配置
+  "editor.tabSize": 2,
+  "editor.lineHeight": 24,
+  "javascript.updateImportsOnFileMove.enabled": "always", // 移动文件或者修改文件名时，是否自动更新引用了此文件的所有文件。
+  // 每次保存是否自动格式化文件
+  // "editor.formatOnSave": true,
+  // 每次保存的时候将代码按格式进行修复
+  "editor.codeActionsOnSave": {
+    // 自动引入缺少的库
+    "source.addMissingImports": true,
+    // 为代码及Eslint添加自动修复功能
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  // 针对.vue、.ts 和 .tsx 文件开启 ESLint 的 autoFix
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "typescript",
+    "typescriptreact"
+  ]
+}
