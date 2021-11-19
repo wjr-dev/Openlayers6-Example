@@ -274,6 +274,15 @@ const router = new VueRouter({
         root: 'Interaction',
         current: 'MeasureArea'
       }
+    }, {
+      path: 'drawBox',
+      name: 'DrawBox',
+      component: () => import('@/pages/Interaction/DrawBox.vue'),
+      meta: {
+        label: '框选',
+        root: 'Interaction',
+        current: 'DrawBox'
+      }
     },]
   },
 
