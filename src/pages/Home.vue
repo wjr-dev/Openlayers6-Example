@@ -22,11 +22,9 @@
     </p>
     <br />
     <h4>TODO</h4>
-    <p class="delete">显藏：VectorLayer 显示隐藏</p>
-    <p class="delete">测距：绘制 LineString ，绘制结束后显示 LineString 长度</p>
-    <p class="delete">测面：绘制 Polygon ，绘制结束后显示 Polygon 面积</p>
-    <p class="delete">标记：鼠标点击绘制 Overlay </p>
-    <p>框选：框选获取地图元素</p>
+    <h5></h5>
+    <p class="delete">框选 Overlay</p>
+    <p>框选 Feature</p>
   </div>
 </template>
 
