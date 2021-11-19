@@ -275,13 +275,13 @@ const router = new VueRouter({
         current: 'MeasureArea'
       }
     }, {
-      path: 'drawBox',
-      name: 'DrawBox',
-      component: () => import('@/pages/Interaction/DrawBox.vue'),
+      path: 'drawBoxOverlay',
+      name: 'DrawBoxOverlay',
+      component: () => import('@/pages/Interaction/DrawBoxOverlay.vue'),
       meta: {
-        label: '框选',
+        label: '框选 Overlay',
         root: 'Interaction',
-        current: 'DrawBox'
+        current: 'DrawBoxOverlay'
       }
     },]
   },

@@ -25,7 +25,6 @@
     <h5></h5>
     <p class="delete">框选 Overlay</p>
     <p>框选 Feature</p>
-    <p>图片地图</p>
   </div>
 </template>
 

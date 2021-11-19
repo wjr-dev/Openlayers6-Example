@@ -17,7 +17,7 @@ import Overlay from 'ol/Overlay'
 import { always } from 'ol/events/condition'
 import { containsCoordinate } from 'ol/extent'
 export default {
-  name: 'DrawBox', // 框选
+  name: 'DrawBoxOverlay', // 框选 Overlay
   mixins: [resizeMixin],
   data() {
     return {
