@@ -184,6 +184,15 @@ const router = new VueRouter({
         root: 'Animation',
         current: 'RadarAnimation'
       }
+    }, {
+      path: 'resPointAlarm',
+      name: 'ResPointAlarm',
+      component: () => import('@/pages/Animation/ResPointAlarm.vue'),
+      meta: {
+        label: '资源点报警',
+        root: 'Animation',
+        current: 'ResPointAlarm'
+      }
     },]
   },
   {
