@@ -102,7 +102,7 @@ export default {
 
       vectorContext.setStyle(this.getPointStyle(radius, opcatity * 4))
       vectorContext.drawGeometry(geom)
-      
+
       vectorContext.setStyle(this.getPointStyle(radius * 2, opcatity * 2))
       vectorContext.drawGeometry(geom2)
 
@@ -110,16 +110,16 @@ export default {
       vectorContext.drawGeometry(geom3)
       this.map.render()
     },
-  },
-  getPointStyle(radius, opcatity) {
-    return new Style({
-      image: new Circle({
-        radius: radius,
-        fill: new Fill({
-          color: `rgba(255,0,0,${opcatity})`,
+    getPointStyle(radius, opcatity) {
+      return new Style({
+        image: new Circle({
+          radius: radius,
+          fill: new Fill({
+            color: `rgba(255,0,0,${opcatity})`,
+          }),
         }),
-      }),
-    })
+      })
+    },
   },
 }
 </script>
