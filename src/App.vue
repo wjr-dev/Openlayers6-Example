@@ -1,14 +1,8 @@
 <template>
   <div id="app">
     <a-layout id="components-layout-demo-custom-trigger">
-      <a-layout-sider
-        :width="260"
-        v-model="collapsed"
-        :trigger="null"
-        collapsible
-        style="overflow: auto"
-      >
-        <div class="logo">{{ collapsed ? "Ol" : "Openlayers 基础示例" }}</div>
+      <a-layout-sider :width="260" v-model="collapsed" :trigger="null" collapsible style="overflow: auto">
+        <div class="logo">{{ collapsed ? 'Ol' : 'Openlayers 基础示例' }}</div>
         <a-menu
           v-if="$route.name"
           :defaultOpenKeys="defaultOpenKeys"
@@ -51,24 +45,9 @@
             />
           </div>
           <div>
-            <a
-              v-if="currentHref"
-              class="link"
-              target="_black"
-              :href="currentHref"
-            >
-              当前示例代码
-            </a>
-            <a class="link" target="_black" href="https://openlayers.org/">
-              Openlayers官网
-            </a>
-            <a
-              class="link"
-              target="_black"
-              href="https://github.com/wjr-dev/Openlayers6-Example"
-            >
-              GitHub
-            </a>
+            <a v-if="currentHref" class="link" target="_black" :href="currentHref"> 当前示例代码 </a>
+            <a class="link" target="_black" href="https://openlayers.org/"> Openlayers官网 </a>
+            <a class="link" target="_black" href="https://github.com/wjr-dev/Openlayers6-Example"> GitHub </a>
           </div>
         </a-layout-header>
         <a-layout-content
@@ -87,13 +66,7 @@
 </template>
 
 <script>
-import { Icon } from "ant-design-vue";
-
-const IconFont = Icon.createFromIconfontCN({
-  // 最终需要换成本地地址
-  // scriptUrl: "/icon/iconfont.js",
-  scriptUrl: "//at.alicdn.com/t/font_2932920_tz3anq3t9v.js",
-});
+import IconFont from '@/components/MyFont.js'
 
 export default {
   name: "App",
