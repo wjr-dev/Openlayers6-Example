@@ -197,13 +197,11 @@ export default {
   }
   &:hover {
     .res-bg{
-      animation: hover 2s linear;
+      animation: hover 2s linear infinite;
       display: block;
     }
   }
   &.alarming {
-    // color: rgba(255, 0, 0, 0.396);
-    // color: rgba(255, 0, 0, 0.8);
     animation: alarming 0.6s infinite;
   }
 }
