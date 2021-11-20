@@ -21,10 +21,15 @@
       环境中，对应的就是浏览器。构成一个矢量图层的包含一个数据（source）和一个样式（style），数据构成矢量图层的要素，样式规定要素显示的方式和外观。一个初始化成功的矢量图层包含一个到多个要素（feature），每个要素由地理属（geometry）和多个其他的属性，可能包含名称等。
     </p>
     <br />
-    <h4>TODO</h4>
-    <h5></h5>
+    <h3>TODO</h3>
+    <h4><b>=== 交互 ===</b></h4>
     <p class="delete">框选 Overlay</p>
     <p>框选 Feature</p>
+    <h4><b>=== 动画 ===</b></h4>
+    <p>设备报警</p>
+    <p>防区报警</p>
+    <p>光纤报警</p>
+    <p>轨迹报警</p>
   </div>
 </template>
 
@@ -37,5 +42,8 @@ export default {
 <style lang="scss" scoped>
 .delete{
   text-decoration: line-through;
+}
+p{
+  text-indent: 2rem;
 }
 </style>
