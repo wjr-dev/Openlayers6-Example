@@ -96,46 +96,30 @@ export default {
         opcatity = opcatity * linear(1 - elapsed / this.speed)
       }
 
-      vectorContext.setStyle(
-        new Style({
-          image: new Circle({
-            radius,
-            fill: new Fill({
-              color: `rgba(255,0,0,${opcatity * 4})`,
-            }),
-          }),
-        }),
-      )
-
       const geom = new Point(this.point)
       const geom2 = new Point(this.point)
       const geom3 = new Point(this.point)
 
+      vectorContext.setStyle(this.getPointStyle(radius, opcatity * 4))
       vectorContext.drawGeometry(geom)
-      vectorContext.setStyle(
-        new Style({
-          image: new Circle({
-            radius: radius * 2,
-            fill: new Fill({
-              color: `rgba(255,0,0,${opcatity * 2})`,
-            }),
-          }),
-        }),
-      )
+      
+      vectorContext.setStyle(this.getPointStyle(radius * 2, opcatity * 2))
       vectorContext.drawGeometry(geom2)
-      vectorContext.setStyle(
-        new Style({
-          image: new Circle({
-            radius: radius * 4,
-            fill: new Fill({
-              color: `rgba(255,0,0,${opcatity * 1})`,
-            }),
-          }),
-        }),
-      )
+
+      vectorContext.setStyle(this.getPointStyle(radius * 4, opcatity))
       vectorContext.drawGeometry(geom3)
       this.map.render()
     },
+  },
+  getPointStyle(radius, opcatity) {
+    return new Style({
+      image: new Circle({
+        radius: radius,
+        fill: new Fill({
+          color: `rgba(255,0,0,${opcatity})`,
+        }),
+      }),
+    })
   },
 }
 </script>
