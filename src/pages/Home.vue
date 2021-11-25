@@ -26,8 +26,8 @@
     <p class="delete">框选 Overlay</p>
     <p>框选 Feature</p>
     <h4><b>=== 动画 ===</b></h4>
-    <p>设备报警</p>
-    <p>防区报警</p>
+    <p class="delete">设备报警</p>
+    <p class="delete">防区报警</p>
     <p>光纤报警</p>
     <p>轨迹报警</p>
   </div>

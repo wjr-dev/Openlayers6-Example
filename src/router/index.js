@@ -183,6 +183,15 @@ const router = new VueRouter({
         root: 'Animation',
         current: 'ResPointAlarm'
       }
+    },{
+      path: 'defenceAlarm',
+      name: 'DefenceAlarm',
+      component: () => import('@/pages/Animation/DefenceAlarm.vue'),
+      meta: {
+        label: '防区报警',
+        root: 'Animation',
+        current: 'DefenceAlarm'
+      }
     },]
   },
   {
