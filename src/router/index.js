@@ -293,7 +293,26 @@ const router = new VueRouter({
         current: 'DrawBoxOverlay'
       }
     },]
-  },
+  }, {
+    path: '/webGL/',
+    name: 'WebGL',
+    component: () => import('@/pages/WebGL/index.vue'),
+    meta: {
+      label: 'WebGL',
+      root: null,
+      current: 'WebGL'
+    },
+    children: [{
+      path: 'iconPoints',
+      name: 'IconPoints',
+      component: () => import('@/pages/WebGL/IconPoints.vue'),
+      meta: {
+        label: '海量图标',
+        root: 'WebGL',
+        current: 'IconPoints'
+      }
+    }]
+  }, 
 
   ]
 })
