@@ -258,7 +258,7 @@ export default {
       return new Select({
         layers: [_this.trackLayer],
         condition: singleClick,
-        style: _this.trackLayer.getStyle(),
+        style: 'falsey',
         toggleCondition: function (e) {
           let feature = _this.map.forEachFeatureAtPixel(
             e.pixel,
