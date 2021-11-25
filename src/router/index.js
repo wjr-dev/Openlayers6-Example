@@ -111,16 +111,6 @@ const router = new VueRouter({
         root: 'VectorLayer',
         current: 'Arrow'
       }
-    },
-    {
-      path: 'ship',
-      name: 'Ship',
-      component: () => import('@/pages/VectorLayer/Ship.vue'),
-      meta: {
-        label: '船',
-        root: 'VectorLayer',
-        current: 'Ship'
-      }
     }, {
       path: 'sector',
       name: 'Sector',
@@ -312,7 +302,7 @@ const router = new VueRouter({
         current: 'IconPoints'
       }
     }]
-  }, 
+  },
 
   ]
 })
