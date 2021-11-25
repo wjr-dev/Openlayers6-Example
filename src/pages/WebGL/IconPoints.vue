@@ -14,7 +14,7 @@ import Feature from 'ol/Feature'
 import { Point } from 'ol/geom'
 import WebGLPointsLayer from 'ol/layer/WebGLPoints'
 export default {
-  name: 'BaseMap', // 基础地图
+  name: 'IconPoints', // 海量图标
   mixins: [resizeMixin],
   data() {
     return {
