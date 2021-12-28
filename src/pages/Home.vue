@@ -29,7 +29,6 @@
     <p class="delete">设备报警</p>
     <p class="delete">防区报警</p>
     <p>光纤报警</p>
-    <p>轨迹报警</p>
   </div>
 </template>
 

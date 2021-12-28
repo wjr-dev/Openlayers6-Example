@@ -77,8 +77,8 @@ export default {
     return {
       collapsed: false,
       openKeys: [],
-      gitlab:
-        "http://iris.hikvision.com.cn/wangwenchao6/openlayers6-example/-/blob/master/src/pages/",
+      github:
+        "https://github.com/wjr-dev/Openlayers6-Example/tree/master/src/pages/",
       currentHref: "",
     };
   },
@@ -91,7 +91,7 @@ export default {
         } else {
           route = `${newVal.meta.current}.vue`;
         }
-        this.currentHref = this.gitlab + route;
+        this.currentHref = this.github + route;
       },
     },
   },
