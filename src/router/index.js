@@ -129,6 +129,15 @@ const router = new VueRouter({
         root: 'VectorLayer',
         current: 'Radar'
       }
+    }, {
+      path: 'heat',
+      name: 'Heat',
+      component: () => import('@/pages/VectorLayer/Heat.vue'),
+      meta: {
+        label: '热力图',
+        root: 'VectorLayer',
+        current: 'Heat'
+      }
     },]
   },
   {
@@ -183,7 +192,7 @@ const router = new VueRouter({
         root: 'Animation',
         current: 'ResPointAlarm'
       }
-    },{
+    }, {
       path: 'defenceAlarm',
       name: 'DefenceAlarm',
       component: () => import('@/pages/Animation/DefenceAlarm.vue'),
